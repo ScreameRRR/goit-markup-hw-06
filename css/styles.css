@@ -307,6 +307,7 @@ img {
   border: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   margin-bottom: 28px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text-label {
@@ -345,6 +346,7 @@ img {
   height: 12px;
   color: inherit;
   background-color: #fff;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus ~ .icon {
@@ -366,13 +368,10 @@ img {
   outline: none;
   border: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .text-area:focus {
-  border: 1px solid #2196f3;
-}
-
-.form-input:focus {
   border: 1px solid #2196f3;
 }
 
@@ -385,7 +384,7 @@ img {
   margin-bottom: 30px;
 }
 
-.checked-icon {
+/* .checked-icon {
   width: 16px;
   height: 15px;
   position: absolute;
@@ -394,10 +393,10 @@ img {
   border: 2px solid #212121;
   border-radius: 20%;
   fill: #ffffff;
-}
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
 
 .checked-icon {
-  content: "";
   position: absolute;
   left: -25px;
   top: 3px;
@@ -406,6 +405,8 @@ img {
   height: 15px;
   border: 2px solid #212121;
   border-radius: 20%;
+  fill: #ffffff;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rules-checkbox:checked + .checked-icon {
@@ -457,6 +458,7 @@ img {
   height: 30px;
   color: #000000;
   cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-button:hover {
